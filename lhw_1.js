@@ -10,6 +10,6 @@ function sumArrayPromise(numbers) {
     });
   }
   
-  sumArrayPromise([1, 2, 3, 4, 5]).then(sum => console.log(sum))
+  sumArrayPromise([1, 2, 3, 4, 5]).then(console.log)
 
   
